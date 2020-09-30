@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "handbrake-js": "^5.0.0"
+    "@gumlet/gif-resize": "^1.1.1",
+    "gifsicle": "^5.1.0",
+    "sharp": "^0.26.0"
+  },
+  "devDependencies": {
+    "compress-images": "^1.9.5"
   }
 }
